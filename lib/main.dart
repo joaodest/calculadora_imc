@@ -88,7 +88,7 @@ class _HomeState extends State<Home> {
                 ),
                 validator: (value){
                   if (value!.isEmpty){
-                      return "Insira seu Peso!";
+                    return "Insira seu Peso!";
                   } else {
                     return null;
                   }
@@ -108,7 +108,7 @@ class _HomeState extends State<Home> {
                 ),
                 validator: (value){
                   if (value!.isEmpty){
-                      return "Insira sua Altura!";
+                    return "Insira sua Altura!";
                   } else {
                     return null;
                   }
